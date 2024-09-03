@@ -1,0 +1,177 @@
+header {
+background:gray;
+color: #fff;
+padding: 1rem 0;
+}
+
+body {
+  font-family: Arial, Sans-Serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: font-family: "Times New Roman", Times, serif;
+  line-height: 1.7;
+  letter-spacing: 2,4px;
+  text-transform: uppercase;
+  text-decoration: bold;
+  text-shadow: 2px 2px 4px rgba(6, 0, 6, 0.5); 
+  color: black;
+  text-align: center;
+  background-color: lightgray;
+} 
+
+body.cor{
+     color: black;
+     font-family: Arial, Sans-Serif;
+     background-color:gray;}
+}
+input.nome [type=text] {
+  border: none;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input.senha [type=password] {
+  border: none;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+fieldset.field {
+   background-color: lightgray;
+   border-radius: 12px;
+   color: black;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 10px;
+  
+}
+form{background-color: gray;
+}
+
+     
+}
+
+input{
+  background-color:white;
+  border-radius: 12px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+text-shadow: 2px 2px 4px rgba(6, 0, 6, 0.5);
+  
+}
+td  {color: Black;}
+
+table  {
+    background-color: lightgray;
+    border-style: 1px solid;
+    border-color: Black;
+    border-collapse: collapse;
+}
+
+h1.compra{
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(6, 0, 6, 0.5);
+    background-color: lightgray;
+    border-radius: 5px;
+    padding:5px;
+    margin:1px;}
+ 
+}
+h1.loja{
+    color:black;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(6, 0, 6, 0.5);
+    background-color: lightgray;
+    border-radius: 8px;
+    padding:6px;
+    margin:2px;
+}
+.but1 {background-color: black;
+color: white;
+border-radius: 12px;
+padding: 14px 40px;
+display: flex;}
+
+.burger div {
+width: 25px;
+height: 3px;
+background: #fff;
+margin: 4px;}
+
+.burger {
+display: none;
+flex-direction: column;
+cursor: pointer;}
+
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 1rem;
+}
+
+.nav-links {
+list-style: none;
+display: flex;
+margin: 0;
+padding: 0;
+}
+.nav-links li {
+position: relative;
+}
+.nav-links a {
+color: #fff;
+text-decoration: none;
+padding: 0.75rem 1rem;
+display: block;
+}
+
+.burger {
+display: none;
+flex-direction: column;
+cursor: pointer;
+}
+.burger div {
+width: 25px;
+height: 3px;
+background: #fff;
+margin: 4px;
+}
+
+@media (max-width: 768px) {
+.nav-links {
+flex-direction: column;
+width: 100%;
+position: absolute;
+top: 60px;
+left: -100%;
+background: #333;
+transition: all 0.5s ease;
+}
+.nav-links li {
+text-align: center;
+}
+.nav-links li a {
+padding: 1rem;
+}
+.nav-links.active {
+left: 0;
+}
+.burger {
+display: flex;
+}
+}
